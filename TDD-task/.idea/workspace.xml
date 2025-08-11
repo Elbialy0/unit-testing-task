@@ -45,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.StopWatchTest.executor": "Run",
+    "JUnit.StopWatchTest.giveStopWatchWithDailyWorkHoursThenIncreaseDays.executor": "Run",
     "JUnit.StopWatchTest.giveStopWatchWithMinutesThenRecord.executor": "Run",
     "JUnit.StopWatchTest.giveStopWatchWithNegativeMinutesThenIgnored.executor": "Run",
     "JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyMinutesThenIncreaseDaysByOne.executor": "Run",
@@ -175,7 +176,7 @@
       <updated>1754926133457</updated>
       <workItem from="1754926134779" duration="170000" />
       <workItem from="1754926321284" duration="114000" />
-      <workItem from="1754926452074" duration="1359000" />
+      <workItem from="1754926452074" duration="1694000" />
     </task>
     <servers />
   </component>

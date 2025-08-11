@@ -17,6 +17,9 @@ public class StopWatch {
     }
     public void recordDailyWorkingHours(int dailyWorkingHours){
 
+        this.dailyWorkingHours+=dailyWorkingHours;
+        this.days+=(int)(this.dailyWorkingHours/8);
+        this.dailyWorkingHours%=8;
     }
     public int getMinutes(){
         return minutes;
