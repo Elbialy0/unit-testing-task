@@ -13,5 +13,17 @@ public class StopWatchTest {
         Assertions.assertEquals(5,stopWatch.getMinutes());
 
     }
+    @Test
+    void giveStopWatchWithNegativeMinutesThenIgnored(){
+
+        StopWatch stopWatch = new StopWatch();
+
+        stopWatch.record(5);
+        stopWatch.record(-4);
+
+        Assertions.assertEquals(5,stopWatch.getMinutes());
+
+
+    }
 
 }
