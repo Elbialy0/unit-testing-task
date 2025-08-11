@@ -66,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne">
+  <component name="RunManager" selected="JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyMinutesThenIncreaseDaysByOne">
     <configuration name="StopWatchTest.giveStopWatchWithMinutesThenRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-task" />
       <extension name="coverage">
@@ -94,6 +94,22 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.StopWatchTest" />
       <option name="METHOD_NAME" value="giveStopWatchWithNegativeMinutesThenIgnored" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyMinutesThenIncreaseDaysByOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StopWatchTest" />
+      <option name="METHOD_NAME" value="giveStopWatchWithOneThousandFourHundredFortyMinutesThenIncreaseDaysByOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyMinutesThenIncreaseDaysByOne" />
         <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne" />
         <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithSixtyMinutesThenIncreaseHoursByOne" />
         <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithNegativeMinutesThenIgnored" />

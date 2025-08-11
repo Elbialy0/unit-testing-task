@@ -32,7 +32,7 @@ public class StopWatchTest {
         Assertions.assertEquals(1,stopWatch.getHours());
     }
     @Test
-    void giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne(){
+    void giveStopWatchWithOneThousandFourHundredFortyMinutesThenIncreaseDaysByOne(){
         StopWatch stopWatch = new StopWatch();
 
         stopWatch.record(1440);
