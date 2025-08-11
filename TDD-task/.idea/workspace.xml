@@ -47,6 +47,7 @@
   "keyToString": {
     "JUnit.StopWatchTest.giveStopWatchWithMinutesThenRecord.executor": "Run",
     "JUnit.StopWatchTest.giveStopWatchWithNegativeMinutesThenIgnored.executor": "Run",
+    "JUnit.StopWatchTest.giveStopWatchWithSixtyMinutesThenIncreaseHoursByOne.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -65,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StopWatchTest.giveStopWatchWithSixtyMinutesThenIncreaseHoursByOne">
+  <component name="RunManager" selected="JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne">
     <configuration name="StopWatchTest.giveStopWatchWithMinutesThenRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-task" />
       <extension name="coverage">
@@ -98,6 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.StopWatchTest" />
+      <option name="METHOD_NAME" value="giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StopWatchTest.giveStopWatchWithSixtyMinutesThenIncreaseHoursByOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-task" />
       <extension name="coverage">
@@ -116,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne" />
         <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithSixtyMinutesThenIncreaseHoursByOne" />
         <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithNegativeMinutesThenIgnored" />
         <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithMinutesThenRecord" />
@@ -139,7 +157,7 @@
       <updated>1754926133457</updated>
       <workItem from="1754926134779" duration="170000" />
       <workItem from="1754926321284" duration="114000" />
-      <workItem from="1754926452074" duration="690000" />
+      <workItem from="1754926452074" duration="1042000" />
     </task>
     <servers />
   </component>

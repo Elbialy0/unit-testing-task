@@ -31,5 +31,12 @@ public class StopWatchTest {
 
         Assertions.assertEquals(1,stopWatch.getHours());
     }
+    @Test
+    void giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne(){
+        StopWatch stopWatch = new StopWatch();
+
+        stopWatch.record(1440);
+        Assertions.assertEquals(1,stopWatch.getDays());
+    }
 
 }
