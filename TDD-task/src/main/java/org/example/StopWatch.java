@@ -4,6 +4,7 @@ public class StopWatch {
     private int minutes;
     private int hours;
     private int days;
+    private int dailyWorkingHours;
 
     public void record(int minutes) {
         if (minutes>0) {
@@ -13,6 +14,8 @@ public class StopWatch {
             days += (int) (hours / 24);
             hours %= 24;
         }
+    }
+    public void recordDailyWorkingHours(int dailyWorkingHours){
 
     }
     public int getMinutes(){
@@ -24,5 +27,6 @@ public class StopWatch {
     public int getDays(){
         return days;
     }
+
 }
 

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf6790db-dc5a-49b5-b5e4-47fe2d65d96f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StopWatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StopWatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/StopWatchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +44,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.StopWatchTest.executor": "Run",
     "JUnit.StopWatchTest.giveStopWatchWithMinutesThenRecord.executor": "Run",
     "JUnit.StopWatchTest.giveStopWatchWithNegativeMinutesThenIgnored.executor": "Run",
+    "JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyMinutesThenIncreaseDaysByOne.executor": "Run",
+    "JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne.executor": "Run",
     "JUnit.StopWatchTest.giveStopWatchWithSixtyMinutesThenIncreaseHoursByOne.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StopWatchTest">
+  <component name="RunManager" selected="JUnit.StopWatchTest.giveStopWatchWithDailyWorkHoursThenIncreaseDays">
     <configuration name="StopWatchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-task" />
       <extension name="coverage">
@@ -82,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StopWatchTest.giveStopWatchWithNegativeMinutesThenIgnored" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StopWatchTest.giveStopWatchWithDailyWorkHoursThenIncreaseDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD-task" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.StopWatchTest" />
-      <option name="METHOD_NAME" value="giveStopWatchWithNegativeMinutesThenIgnored" />
+      <option name="METHOD_NAME" value="giveStopWatchWithDailyWorkHoursThenIncreaseDays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithDailyWorkHoursThenIncreaseDays" />
         <item itemvalue="JUnit.StopWatchTest" />
         <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyMinutesThenIncreaseDaysByOne" />
         <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithOneThousandFourHundredFortyThenIncreaseDaysByOne" />
         <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithSixtyMinutesThenIncreaseHoursByOne" />
-        <item itemvalue="JUnit.StopWatchTest.giveStopWatchWithNegativeMinutesThenIgnored" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,7 @@
       <updated>1754926133457</updated>
       <workItem from="1754926134779" duration="170000" />
       <workItem from="1754926321284" duration="114000" />
-      <workItem from="1754926452074" duration="1042000" />
+      <workItem from="1754926452074" duration="1359000" />
     </task>
     <servers />
   </component>
