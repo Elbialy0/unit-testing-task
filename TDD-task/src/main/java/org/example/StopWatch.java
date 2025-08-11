@@ -8,11 +8,15 @@ public class StopWatch {
         if (minutes>0) {
             this.minutes += minutes;
         }
+        if (this.minutes>=60){
+            hours+=(int)this.minutes/60;
+            this.minutes%=60;
+        }
     }
     public int getMinutes(){
         return minutes;
     }
     public int getHours(){
-        return 0;
+        return hours;
     }
 }
